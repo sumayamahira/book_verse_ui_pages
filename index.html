@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Book Verse - Login Page</title>
+</head>
+
+<body>
+    <div class="font-serif bg-gray-50">
+        <div class="text-center flex flex-col  min-h-screen justify-center items-center p-4 relative">
+
+            <div class="text-center mb-10">
+                <h2 class="text-4xl italic text-slate-800">BookVerse</h2>
+                <p class="uppercase tracking-[0.3em] text-[10px] text-slate-500 mt-1">
+                    curated for the bibliophile</p>
+            </div>
+
+
+
+            <div class="bg-white border border-slate-200 w-full max-w-md p-10 md:p-14 shadow-sm">
+                <div class="text-left mb-10">
+                    <h3 class="text-2xl text-slate-800 mb-2">Welcome Back</h3>
+                    <p class="text-slate-500 text-sm mb-2">Please enter your details to access your collection.</p>
+                </div>
+
+
+                <form action="#" class="space-y-8">
+                    <div class="flex flex-col">
+                        <label for="email"
+                            class="text-left uppercase text-[15px] font-bold tracking-wider text-slate-700 mb-1">email
+                            address</label>
+                        <input type="email" id="email" placeholder="e.g. reader@bookverse.com"
+                            class="border-b border-slate-300 py-2 focus:outline-none focus:border-slate-900 transition-colors placeholder:text-slate-300 text-sm">
+                    </div>
+
+                    <div class="flex flex-col">
+                        <div class="flex justify-between items-end mb-1">
+                            <label for="password"
+                                class="text-left uppercase text-[15px] font-bold tracking-wider text-slate-700">password</label>
+                            <a href="#" class="text-[15px] text-red-400 hover:text-red-600 transition-colors">Forget
+                                Password?</a>
+                        </div>
+                        <input type="password" id="password" placeholder="........"
+                            class="border-b border-slate-300 py-2 focus:outline-none focus:border-slate-900 transition-colors placeholder:text-slate-300 text-[25px]">
+                    </div>
+
+                    <div class="flex items-center space-x-2 py-2">
+                        <input type="checkbox" id="checkbox" class="w-4 h-4 border-slate-300 rounded accent-slate-900">
+                        <label for="checkbox" class="text-[15px] text-slate-600"> Remember me for 30 days</label>
+                    </div>
+
+                    <div class="w-full bg-[#1a2634] text-white py-3 text-[15px] tracking-[0.2em] font-semibold hover:bg-slate-700 cursor-pointer transition-all mt-3">
+                        <input type="button" id="submit">
+                        <label for="submit">Sign In</label>
+                    </div>
+                </form>
+
+
+                <div class="mt-8 text-center text-sm text-slate-600 border-t border-slate-100 pt-4"><span>Don't have a account?</span>
+                    <a href="#" class="font-bold text-slate-900 hover:underline">Register</a>
+
+                </div>
+            </div>
+
+            <footer class="absolute bottom-4 flex flex-col gap-20 md:flex-row justify-between items-center px-10 text-[9px] uppercase tracking-widest text-slate-400text-2xl text-black">
+                <div class="mb-4 md:mb-0 font-bold text-slate-800">BookVerse</div>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-slate-600">Terms of Service</a>
+                <span>/</span>
+                <a href="#" class="hover:text-slate-600">Privacy Policy</a>
+                <span>/</span>
+                <a href="#" class="hover:text-slate-600">Contact Us</a>
+                <span>/</span>
+                <a href="#" class="hover:text-slate-600">Instagram</a>
+            </div>
+            <div class="mt-4 md:mt-0">© 2026 BookVerse. Curated for the bibliophile.</div>
+            </footer>
+
+        </div>
+    </div>
+</body>
+
+</html>
